@@ -18,6 +18,11 @@ import javafx.scene.control.TextField;
 public class CorsiController {
 	
 	Model model = new Model ();
+	
+	public void setModel(Model model) {
+		this.model = model ;
+		
+	}
 
     @FXML // ResourceBundle that was given to the FXMLLoader
     private ResourceBundle resources;
@@ -66,9 +71,6 @@ public class CorsiController {
 
     }
 
-	public void setModel(Model model) {
-		this.model = model ;
-		
-	}
+
 }
 
