@@ -1,6 +1,5 @@
 package it.polito.tdp.corsi.model;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import it.polito.tdp.corsi.db.CorsoDAO;
